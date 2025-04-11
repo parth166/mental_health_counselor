@@ -18,7 +18,7 @@ This web application helps mental health counselors:
 ---
 
 ## 🧱 Project Structure
-.
+
 ├── dir1
 │   ├── file11.ext
 │   └── file12.ext
