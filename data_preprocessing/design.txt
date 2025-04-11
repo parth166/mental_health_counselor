@@ -1,0 +1,44 @@
+Rough notes for design considerations
+
+Current Schema:
+{
+    questionId: 
+    questionTitle:
+    questionText: 
+    questionLink: 
+    topic:                              # is a categorical variable, check categories
+    therapistInfo:                      # Need to extract unique therapists and assign a false ID to them.
+    therapistUrl:
+    answerText: 
+    upvotes: ~ int feature          
+    views: 
+}
+
+General checks I need to perform:
+1. Missing fields
+
+Data Cleaning:
+1. Groupby question ID
+2. Clean therapistInfo and extract therapist name.
+
+
+General structure:
+
+
+Question table:
+{
+    questionId: 
+    questionTitle:
+    questionText: 
+    questionLink: 
+    topic:
+    responses: [
+        {
+            therapistInfo:                     
+            therapistUrl:
+            answerText: 
+            upvotes: ~ int feature          
+            views: 
+        }
+    ]                     
+}
