@@ -18,7 +18,7 @@ This web application helps mental health counselors:
 ---
 
 ## 🧱 Project Structure
-```
+
 ├── dir1
 │   ├── file11.ext
 │   └── file12.ext
@@ -29,8 +29,8 @@ This web application helps mental health counselors:
 ├── dir3
 ├── file_in_root.ext
 └── README.md
-```
 
+```
 mental-health-assistant/ 
 ├── app.py # Streamlit frontend 
 ├── retrieve_and_classify.py # Semantic search + topic classification 
@@ -47,7 +47,7 @@ mental-health-assistant/
 │ └── label_encoder.pkl # Sklearn label encoder 
 ├── requirements.txt 
 └── README.md
-
+```
 ---
 
 ## 📊 Features & Deliverables
