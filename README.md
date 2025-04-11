@@ -14,29 +14,27 @@ This web application helps mental health counselors:
 - 🔍 **Retrieve similar expert responses** from a curated mental health counseling corpus
 - 🧠 **Generate high-quality suggestions** via OpenAI or local LLM
 - 🏷️ **Automatically classify queries** into mental health topics (e.g., anxiety, trauma, grief)
-- 👥 **Surface therapist expertise** based on response history and popularity
-- 📊 **Log all interactions** to persistent disk for analysis
 
 ---
 
 ## 🧱 Project Structure
 
 mental-health-assistant/ 
-    ├── app.py # Streamlit frontend 
-    ├── retrieve_and_classify.py # Semantic search + topic classification 
-    ├── generate_llm_advice.py # LLM response generator 
-    ├── train_topic_classifier.py# Fine-tunes a DistilBERT/Roberta classifier 
-    ├── data/ 
-    │ ├── data.json # Full mental health Q&A dataset 
-    │ ├── grouped_by_topic.json
-    │ ├── therapists.json
-    ├── faiss.index # Dense vector search index 
-    ├── faiss_metadata.pkl # Metadata mapped to FAISS vectors 
-    ├── models/ 
-    │ └── bert_topic_model/ # Fine-tuned classification model 
-    │ └── label_encoder.pkl # Sklearn label encoder 
-    ├── requirements.txt 
-    └── README.md
+├── app.py # Streamlit frontend 
+├── retrieve_and_classify.py # Semantic search + topic classification 
+├── generate_llm_advice.py # LLM response generator 
+├── train_topic_classifier.py# Fine-tunes a DistilBERT/Roberta classifier 
+├── data/ 
+│ ├── data.json # Full mental health Q&A dataset 
+│ ├── grouped_by_topic.json
+│ ├── therapists.json
+├── faiss.index # Dense vector search index 
+├── faiss_metadata.pkl # Metadata mapped to FAISS vectors 
+├── models/ 
+│ └── bert_topic_model/ # Fine-tuned classification model 
+│ └── label_encoder.pkl # Sklearn label encoder 
+├── requirements.txt 
+└── README.md
 
 ---
 
