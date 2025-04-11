@@ -2,6 +2,8 @@
 
 A powerful, AI-powered assistant to help mental health counselors respond to complex client situations using insights drawn from expert therapist responses and large language models (LLMs). Built with a Retrieval-Augmented Generation (RAG) pipeline, local ML models, and OpenAI.
 
+Run it on: https://counsellor.streamlit.app/
+
 ---
 
 ## 💡 What It Does
