@@ -4,6 +4,9 @@ A powerful, AI-powered assistant to help mental health counselors respond to com
 
 Run it on: https://counsellor.streamlit.app/
 
+Note: For the intial run on the website. It can take upto 5 minutes to load the models.
+Following chats with the assistant are quick.
+
 ---
 
 ## 💡 What It Does
